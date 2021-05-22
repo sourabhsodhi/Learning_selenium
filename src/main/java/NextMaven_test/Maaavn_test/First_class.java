@@ -20,7 +20,7 @@ public class First_class {
 // Launch website  
     driver.navigate().to("http://www.google.com/");  
 
-    
+    Thread.sleep(2000);
           
     // Click on the search text box and send value  
     driver.findElement(By.name("q")).sendKeys("javatpoint tutorials"+ "\n");  
